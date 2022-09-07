@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="./sass/styles.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -17,8 +18,10 @@
 <body>
   <main class="main-container">
     <header class="header">
-      <img src="./images/icon-menu.svg" alt="menu icon">
-      <img src="./images/logo.svg" alt="logo">
+      <div class="header__navigation">
+        <img class="header__menu" src="./images/icon-menu.svg" alt="menu icon">
+        <img class="header__logo" src="./images/logo.svg" alt="logo">
+      </div>
 
       <nav class="navbar">
         <ul class="navbar__items">
@@ -47,10 +50,10 @@
       <div class="header__cart-avatar">
         <div class="header__cart">
           <div class="header__cart--notification">3</div>
-          <img src="./images/icon-cart.svg" alt="cart">
+          <img  src="./images/icon-cart.svg" alt="cart">
         </div>
 
-        <img src="./images/image-avatar.png" alt="avatar">
+        <img class="header__avatar" src="./images/image-avatar.png" alt="avatar">
       </div>
      
     </header>
