@@ -3,11 +3,13 @@
 @use "header";
 @use "navbar";
 @use "modal-navbar";
+@use "gallery";
 
 .main-container {
     width: 375px;
     border: 2px solid red;
     margin: auto;
+    position: relative;
 
     @media (min-width: 1115px){
         width: 1115px;
