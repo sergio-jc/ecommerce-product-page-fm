@@ -37,13 +37,14 @@
 
     @media (min-width:1115px) {
         width: 446px;
+        cursor: pointer;
+
         &__image-container {
             background-position-y: 0px;
             border-radius: 16px;
             height: 446px;
             margin-bottom: 32px;
         }
-
 
     }
 }
